@@ -1,0 +1,154 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+  margin-top: 200px;
+  align-items: center;
+  border: solid 2px black;
+  width: 600px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(234, 246, 246);
+  background-image: url(https://phonoteka.org/uploads/posts/2021-05/1620108123_16-phonoteka_org-p-krasivii-fon-dlya-chasov-18.jpg);
+  background-size: cover;
+}
+
+.FormClock {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  padding: 20px;
+  border: solid 2px black;
+  border-radius: 20px;
+  background-color: bisque;
+}
+
+.name,
+.timeZone {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 20px;
+  height: 30px;
+}
+
+.btn {
+  cursor: pointer;
+  border: solid 2px rgb(0, 0, 0);
+  background-color: blueviolet;
+  color: white;
+  align-self: flex-end;
+  height: 35px;
+}
+
+.hasy { /* Круг для часов */
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url(../public/img/Clock.jpg);
+  background-size:contain;
+  }
+  
+  .minutes { /* Минутная стрелка */
+  position: absolute; /*Позиционируем относительно .hasy */
+  width: 3px; /* Толщина стрелки */
+  height: 35px; /* Длина стрелки */
+  left: 51px; /*Положение стрелки*/
+  top: 16px;
+  background: #826be0;
+  transform-origin: 0 34px; /* Точка относительно которой вращается стрелка */
+  }
+  
+  .has {
+  position: absolute;
+  width: 4px;
+  height: 28px;
+  left: 50px;
+  top: 20px;
+  background: #000000;
+  transform-origin: 0 29px;
+  }
+  
+  .sekundes {
+  position: absolute;
+  width: 2px;
+  height: 45px;
+  left: 51px;
+  top: 4px;
+  background: #48d1cc;
+  transform-origin: 0 45px;
+  }
+  
+  
+  /* .onen, .threen, .sixn, .ninen { Цифры на циферблате
+  position: absolute;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+  }
+  
+  .onen {
+  top: 3px;
+  left: 41px;
+  }
+  
+  .threen {
+  top: 43px;
+  left: 85px;
+  }
+  
+  .sixn {
+  top: 78px;
+  left: 43px;
+  }
+  
+  .ninen {
+  top: 43px;
+  left: 5px;
+  } */
+  
+  .sentr { /* Центр циферблата */
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  top: 42px;
+  left: 44px;
+  background: #009B95;
+  }
+
+  .close {
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    margin-left: 80px;
+    cursor: pointer;
+    background-image: url('https://cdn141.picsart.com/287758037004211.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+  }
+
+
+  .clocksList {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .clock {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-image: url(../public/img/1613397101_8-p-bezhevii-derevyannii-fon-11.jpg);
+    background-size: cover;
+  }
