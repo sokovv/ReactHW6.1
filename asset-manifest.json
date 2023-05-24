@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ReactHW6.1/static/css/main.a7ec7764.css",
+    "main.js": "/ReactHW6.1/static/js/main.384c4bdd.js",
+    "static/js/787.130afaa7.chunk.js": "/ReactHW6.1/static/js/787.130afaa7.chunk.js",
+    "static/media/1613397101_8-p-bezhevii-derevyannii-fon-11.jpg": "/ReactHW6.1/static/media/1613397101_8-p-bezhevii-derevyannii-fon-11.657f6b719d0d19fdf709.jpg",
+    "static/media/Clock.jpg": "/ReactHW6.1/static/media/Clock.cd97faced5cabc8613d8.jpg",
+    "index.html": "/ReactHW6.1/index.html",
+    "main.a7ec7764.css.map": "/ReactHW6.1/static/css/main.a7ec7764.css.map",
+    "main.384c4bdd.js.map": "/ReactHW6.1/static/js/main.384c4bdd.js.map",
+    "787.130afaa7.chunk.js.map": "/ReactHW6.1/static/js/787.130afaa7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7ec7764.css",
+    "static/js/main.384c4bdd.js"
+  ]
+}
